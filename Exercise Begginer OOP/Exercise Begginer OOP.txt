@@ -1,0 +1,157 @@
+
+🔰 Level 1 – Fundamentals of Classes and Objects
+✅ Exercise 1.1 – Product Class
+Create a class called Product with the attributes: name, price, and quantity.
+Create a method that calculates the total value (price * quantity) of a product.
+
+🔎 Challenge 1.1:
+Add a method that applies a percentage discount to the product's price.
+
+✅ Exercise 1.2 – Student Class
+Create a class Student with the attributes name and grades (a list).
+Implement methods to add grades and calculate the average.
+
+🔎 Challenge 1.2:
+Add a method that returns whether the student is approved (average ≥ 7).
+
+⚙️ Level 2 – Encapsulation and Properties
+✅ Exercise 2.1 – CheckingAccount Class with Private Balance
+Create a class CheckingAccount with a protected balance.
+Implement @property to display the balance and @setter to prevent withdrawals that exceed the balance.
+
+🔎 Challenge 2.1:
+Add a simple statement (list of transactions with date and amount).
+
+✅ Exercise 2.2 – Temperature Class
+Create a class with temperature in Celsius.
+Implement properties that return the temperature in Fahrenheit and Kelvin.
+
+🔎 Challenge 2.2:
+Add a method to adjust the temperature based on a target (e.g., "increase by 5 °C").
+
+🧱 Level 3 – Inheritance and Polymorphism
+✅ Exercise 3.1 – Vehicle, Car, and Motorcycle Classes
+Create a class Vehicle with a method move().
+Create two subclasses that inherit from Vehicle and override the method with different behaviors.
+
+🔎 Challenge 3.1:
+Add a kilometer counter in each subclass.
+
+✅ Exercise 3.2 – Employee System
+Create a class Employee with name and salary.
+Create a subclass Manager who has a 15% bonus on salary.
+Implement a method calculate_payment() that reflects this difference.
+
+🔎 Challenge 3.2:
+Create another subclass called Intern who receives 50% of a regular employee’s salary.
+
+🧠 Level 4 – Association, Aggregation, and Composition
+✅ Exercise 4.1 – Company Class with Multiple Employees
+Create a class Company that contains a list of Employee objects.
+Implement methods to add employees and calculate the total payroll.
+
+🔎 Challenge 4.1:
+Add a method to fire an employee by name.
+
+✅ Exercise 4.2 – Order and OrderItem Classes
+Create a class OrderItem with name, quantity, and price.
+Create a class Order with multiple OrderItems.
+Implement the total calculation for the order.
+
+🔎 Challenge 4.2:
+Add a method to apply a discount coupon to the total order.
+
+💡 Final Challenge – Library System
+Objective: Integrate all previous concepts.
+
+Instructions:
+Create a library system with the following classes:
+
+Book: title, author, number of pages, available or borrowed.
+User: name, history of borrowed books.
+Library: collection of books and users, with methods to borrow, return, and search books by title or author.
+
+Extras:
+Use encapsulation to protect sensitive data.
+Use inheritance to differentiate Student, Teacher, and Visitor.
+Implement a transaction history.
+
+---
+
+🔰 Nível 1 – Fundamentos de Classes e Objetos
+✅ Exercício 1.1 – Classe Produto
+Crie uma classe chamada Produto com os atributos: nome, preco e quantidade.
+Crie um método que calcule o valor total (preco * quantidade) de um produto.
+
+🔎 Desafio 1.1:
+Adicione um método que aplique um desconto percentual ao preço do produto.
+
+✅ Exercício 1.2 – Classe Aluno
+Crie uma classe Aluno com os atributos nome e notas (uma lista).
+Implemente métodos para adicionar notas e calcular a média.
+
+🔎 Desafio 1.2:
+Adicione um método que retorne se o aluno está aprovado (média ≥ 7).
+
+⚙️ Nível 2 – Encapsulamento e Propriedades
+✅ Exercício 2.1 – Classe ContaCorrente com saldo privado
+Crie uma classe ContaCorrente com saldo protegido.
+Implemente @property para exibir o saldo e @setter para impedir saques acima do saldo.
+
+🔎 Desafio 2.1:
+Adicione um extrato simples (lista de operações realizadas com data e valor).
+
+✅ Exercício 2.2 – Classe Temperatura
+Crie uma classe com temperatura em Celsius.
+Implemente propriedades que retornem a temperatura em Fahrenheit e Kelvin.
+
+🔎 Desafio 2.2:
+Adicione um método para ajustar a temperatura com base em uma meta (ex: "quero que a temperatura suba 5 °C").
+
+🧱 Nível 3 – Herança e Polimorfismo
+✅ Exercício 3.1 – Classes Veiculo, Carro e Moto
+Crie uma classe Veiculo com um método mover().
+Crie duas subclasses que herdam de Veiculo e sobrescrevem o método com comportamentos diferentes.
+
+🔎 Desafio 3.1:
+Adicione um contador de quilômetros percorridos em cada subclasse.
+
+✅ Exercício 3.2 – Sistema de Funcionários
+Crie uma classe Funcionario com nome e salario.
+Crie uma subclasse Gerente que tem um bônus de 15% sobre o salário.
+Implemente um método calcular_pagamento() que reflita essa diferença.
+
+🔎 Desafio 3.2:
+Crie outra subclasse chamada Estagiario que recebe 50% do salário de um funcionário comum.
+
+🧠 Nível 4 – Associação, Agregação e Composição
+✅ Exercício 4.1 – Classe Empresa com vários Funcionarios
+Crie uma classe Empresa que contenha uma lista de objetos do tipo Funcionario.
+Implemente métodos para adicionar funcionários e calcular a folha de pagamento total.
+
+🔎 Desafio 4.1:
+Adicione um método para demitir um funcionário pelo nome.
+
+✅ Exercício 4.2 – Classe Pedido e ItemPedido
+Crie uma classe ItemPedido com nome, quantidade e preço.
+Crie uma classe Pedido com vários ItemPedido.
+Implemente o cálculo total do pedido.
+
+🔎 Desafio 4.2:
+Adicione um método para aplicar cupom de desconto no total do pedido.
+
+💡 Desafio Final – Sistema de Biblioteca
+Objetivo: Integrar todos os conceitos anteriores.
+
+Enunciado:
+Crie um sistema de biblioteca com as seguintes classes:
+
+Livro: título, autor, número de páginas, disponível ou emprestado.
+Usuario: nome, histórico de livros emprestados.
+Biblioteca: coleção de livros e usuários, com métodos para emprestar, devolver e buscar livros por título ou autor.
+
+Extras:
+Use encapsulamento para proteger dados sensíveis.
+Use herança para diferenciar Aluno, Professor e Visitante.
+Implemente histórico de operações.
+
